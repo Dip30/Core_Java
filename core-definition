@@ -1,35 +1,90 @@
 Core Java Definition:
 
 What is jdk ?
-Answer:
+Answer:JDK is Java Development Kit which implements implementation of either one of the Java SE, Java EE or Java ME.
 
 What jdk contains or composed of or components comes with and define each components?
 Answer:
+Java Compiler- Compiles Java File
+Java Interpreter- Interpret the compiled Java File
+Java Disassembler- Disassembles Java Class files
+Java Header File Generator-to generate C language header file and source files to implement native methods.
+Java Documentation-Used for easy maintenance of code.
+Java Debugger-Used to debug java files
+Java Applet Viewer-Used to view java applet
 
 What is IDE?
+An integrated development environment (IDE) is a programming environment that has been packaged as an application program, typically consisting of a code editor, a compiler, a debugger, and a graphical user interface (GUI) builder.
 What are the IDEs available in the market to support java?
+Eclipse, IntelliJ,Netbeans,JCreator
+
 Explain the entire java life cycle.
+From Text editor, Java compiler compiles java files, includes java class and converts code into byte codes. Then Java vertual machine runs the byte code 
 what is class?
+Collection of many individual objects all of the same kind.
 What is object?
+An object stores its state in fields (variables in some programming languages) and exposes its behavior through methods (functions in some programming languages).
 What is the entry point of an application?
+
+it is the main() 
+ 
 Why main is static?
+
+
+
+ 
+
+
+
+Possible Duplicate:
+Why is the Java main method static? 
+Using reflection we can create the object of class and even call methods of that class so why JAVA need main method to be static
+ 
 What is the difference between an Interface and Abstract class?
+Interface has no complete method. Abstract class have some complete methods
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+No, We can't. We can use it from the concrete class.
 what is Access Specifier?
+Access Specifiers (also known as Visibility Specifiers ) regulate access to classes, fields and methods in Java.
+
 What is OOP ? Define each feature of java OOP.
+OOP is Object Oriented Prgramming. 
+OOp Features are:
+1. Abstraction
+2. Encapsulation
+3. Polymorphism
+4. Inheritence 
 What is API?
+Application programming interface (API) is a set of routines, protocols, and tools for building software applications
 Does java support multiple inheritance?
+No
 What is method overloading and when it happens?
+Method with same name but different signature. When we pass diffent numbers of variable but method name is same
 What is method overriding and when it happens?
+Same method in different classes. When the implementation is different.
 Explain exceptions in java and how to handle it.
+Run time errors can't be detected by compiler. We use it by try catch block
 What is static keyword in java? How it has been used in variables and methods ?
+The static keyword in Java means that the variable or function is shared between all instances of that class as it belongs to the type
+
 What is final and how it has been used variables and methods?
+final means unchangeable. final variable contains unchangeable value.final methods are not override able
 What is final, finally and finalize?
+final can be used to mark a variable "unchangeable"
+finally is used in a try/catch statement to execute code "always" 
+finalize is called when an object is garbage collected. It removes object from the Heap
 What is a constructor ?
+A constructor is a bit of code that allows you to create objects from a class
 What is "this" keyword in java ?
+ The this keyword is used to refer the current object
 What is JVM stand for ?
+The Java Virtual machine (JVM) is the virtual machine that run the Java bytecodes.
 What version of java are you using?
+Elipse 4.4.1 , IntelliJ IDEA 14
 What is JAR stand for ?
+To hide code
 What is compile time and run time?
+Time to compile is copile time and run time is execution time
 What is heap?
+The JVM has a heap that is the runtime data area from which memory for all class instances and arrays are allocated. It is created at the JVM start-up.
 How java manage it's memory?

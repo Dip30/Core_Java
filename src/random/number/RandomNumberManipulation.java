@@ -1,5 +1,7 @@
 package random.number;
 
+import java.util.Random;
+
 public class RandomNumberManipulation {
 
 	/**
@@ -12,6 +14,21 @@ public class RandomNumberManipulation {
 	   * Hints: use Random() class.
 	   */
 
+		int[] Array = new int[50];
+		
+		for(int i = 0; i< Array.length; i++)
+		{
+			Random Rn = new Random();
+			Array[i] = Rn.nextInt(500);
+			if(Array[i]%2 == 0)
+			{
+			  System.out.println(Array[i]);
+			}
+		}
+
+	 
 	}
+
+	
 
 }
